@@ -29,8 +29,10 @@ A sleek, responsive portfolio website built with pure HTML and CSS (no framework
 
 ## Screenshots
 
-![Desktop View](screenshots/desktop.webp)
-![Mobile View](screenshots/mobile.webp)
+![Desktop View](screenshots/desktop1.webp)
+![Desktop View](screenshots/desktop2.webp)
+![Mobile View](screenshots/mobile1.webp)
+![Mobile View](screenshots/mobile2.webp)
 
 ## License
 
