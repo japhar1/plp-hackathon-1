@@ -1,308 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio | Olusegun</title>
-    <meta name="description" content="Olusegun's portfolio - Web Developer & Tech Enthusiast. Explore my projects, skills, and background.">
-    <meta name="keywords" content="Olusegun, Portfolio, Web Developer, Software Engineer, Projects, HTML, CSS, JavaScript, Python, Git, SQL">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio | Olusegun</title>
+  <meta name="description" content="Olusegun's portfolio - Web Developer & Tech Enthusiast. Explore my projects, skills, and background.">
+  <meta name="keywords" content="Olusegun, Portfolio, Web Developer, Software Engineer, Projects, HTML, CSS, JavaScript, Python, Git, SQL">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav id="navbar">
-        <div class="container">
-            <a href="#home" class="logo">Portfolio</a>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <button class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </div>
-    </nav>
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="container">
+      <a href="#home" class="logo">Portfolio</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
 
+  <main>
     <!-- Hero Section -->
     <header id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Hi, I'm <span class="highlight">Olusegun</span></h1>
-                <h2>Web Developer & Tech Enthusiast</h2>
-                <p>Creating digital experiences that matter</p>
-                <a href="#projects" class="btn">View My Work</a>
-            </div>
-            <div class="hero-image">
-                <img src="images/olu.JPG" alt="Profile Picture">
-            </div>
+      <div class="container">
+        <div class="hero-content">
+          <h1>Hi, I'm <span class="highlight">Olusegun</span></h1>
+          <h2>Web Developer & Tech Enthusiast</h2>
+          <p>Creating digital experiences that matter</p>
+          <a href="#projects" class="btn">View My Work</a>
         </div>
+        <div class="hero-image">
+          <img src="images/olu.webp" alt="Olusegun smiling in profile photo" loading="lazy">
+        </div>
+      </div>
     </header>
 
     <!-- About Section -->
     <section id="about" class="section">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>Hi! I'm Olusegun, a passionate web developer with a love for creating functional and beautiful web experiences.</p>
-                    <p>I specialize in front-end development but enjoy learning about all aspects of web technology. When I'm not coding, you can find me exploring new tech trends, contributing to open source, or hiking in nature.</p>
-                    <p>What drives me is the opportunity to solve real problems through technology and create solutions that make people's lives easier.</p>
-                </div>
-                <div class="about-image">
-                    <img src="images/about.jpeg" alt="About Me">
-                </div>
-            </div>
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>Hi! I'm Olusegun, a passionate web developer with a love for creating functional and beautiful web experiences.</p>
+            <p>I specialize in front-end development but enjoy learning about all aspects of web technology. When I'm not coding, you can find me exploring new tech trends, contributing to open source, or hiking in nature.</p>
+            <p>What drives me is the opportunity to solve real problems through technology and create solutions that make people's lives easier.</p>
+          </div>
+          <div class="about-image">
+            <img src="images/about.webp" alt="Olusegun working on a laptop" loading="lazy">
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Education Section -->
     <section id="education" class="section bg-light">
-        <div class="container">
-            <h2 class="section-title">Education & Background</h2>
-            <div class="education-content">
-                <div class="education-item">
-                    <h3>University of Lagos</h3>
-                    <p class="degree">Bachelor's of Science</p>
-                    <p class="date">2003 - 2009</p>
-                    <p>Specialized in Electrical/Electronics Engineering. Graduated with honors.</p>
-                </div>
-                <div class="education-item">
-                    <h3>PLP Africa</h3>
-                    <p class="degree">Web Development/Software Engineering</p>
-                    <p class="date">2025</p>
-                    <p>Focused on learning web development skills such as Python, JS, Git, SQL</p>
-                </div>
-            </div>
-            <div class="cv-download">
-                <a href="cv.pdf" download class="btn">Download My CV</a>
-            </div>
+      <div class="container">
+        <h2 class="section-title">Education & Background</h2>
+        <div class="education-content">
+          <div class="education-item">
+            <h3>University of Lagos</h3>
+            <p class="degree">Bachelor of Science</p>
+            <p class="date">2003 - 2009</p>
+            <p>Specialized in Electrical/Electronics Engineering. Graduated with honors.</p>
+          </div>
+          <div class="education-item">
+            <h3>PLP Africa</h3>
+            <p class="degree">Web Development / Software Engineering</p>
+            <p class="date">2025</p>
+            <p>Focused on Python, JavaScript, Git, SQL, and building web apps.</p>
+          </div>
         </div>
+        <div class="cv-download">
+          <a href="cv.pdf" download class="btn">Download My CV</a>
+        </div>
+      </div>
     </section>
 
     <!-- Skills Section -->
     <section id="skills" class="section">
-        <div class="container">
-            <h2 class="section-title">My Skills</h2>
-            <div class="skills-content">
-                <div class="skills-intro">
-                    <h3>Programming Languages & Tools</h3>
-                    <p>Here are the technologies I work with regularly:</p>
-                </div>
-                <div class="skills-grid">
-                    <div class="skill-item">
-                        <span class="icon">⌨️</span>
-                        <p>HTML5</p>
-                    </div>
-                    <div class="skill-item">
-                        <span class="icon">🎨</span>
-                        <p>CSS3</p>
-                    </div>
-                    <div class="skill-item">
-                        <span class="icon">📜</span>
-                        <p>JavaScript</p>
-                    </div>
-                    <div class="skill-item">
-                        <span class="icon">🔄</span>
-                        <p>Git</p>
-                    </div>
-                    <div class="skill-item">
-                        <span class="icon">🗄️</span>
-                        <p>SQL</p>
-                    </div>
-                    <div class="skill-item">
-                        <span class="icon">🐍</span>
-                        <p>Python</p>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-content">
+          <div class="skills-intro">
+            <h3>Programming Languages & Tools</h3>
+            <p>Here are the technologies I work with regularly:</p>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-item"><i class="fa-brands fa-html5"></i><p>HTML5</p></div>
+            <div class="skill-item"><i class="fa-brands fa-css3-alt"></i><p>CSS3</p></div>
+            <div class="skill-item"><i class="fa-brands fa-js"></i><p>JavaScript</p></div>
+            <div class="skill-item"><i class="fa-brands fa-git-alt"></i><p>Git</p></div>
+            <div class="skill-item"><i class="fa-solid fa-database"></i><p>SQL</p></div>
+            <div class="skill-item"><i class="fa-brands fa-python"></i><p>Python</p></div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Interests Section -->
     <section id="interests" class="section bg-light">
-        <div class="container">
-            <h2 class="section-title">My Interests</h2>
-            <div class="interests-content">
-                <div class="interest-item">
-                    <span class="icon">💻</span>
-                    <h3>Web Development</h3>
-                    <p>Exploring modern frameworks and best practices.</p>
-                </div>
-                <div class="interest-item">
-                    <span class="icon">💡</span>
-                    <h3>Tech Innovations</h3>
-                    <p>Keeping up with emerging trends in technology.</p>
-                </div>
-                <div class="interest-item">
-                    <span class="icon">👥</span>
-                    <h3>Open Source</h3>
-                    <p>Contributing to and learning from the community.</p>
-                </div>
-            </div>
+      <div class="container">
+        <h2 class="section-title">My Interests</h2>
+        <div class="interests-content">
+          <div class="interest-item">
+            <i class="fa-solid fa-laptop-code"></i>
+            <h3>Web Development</h3>
+            <p>Exploring modern frameworks and best practices.</p>
+          </div>
+          <div class="interest-item">
+            <i class="fa-solid fa-lightbulb"></i>
+            <h3>Tech Innovations</h3>
+            <p>Keeping up with emerging trends in technology.</p>
+          </div>
+          <div class="interest-item">
+            <i class="fa-brands fa-github"></i>
+            <h3>Open Source</h3>
+            <p>Contributing to and learning from the community.</p>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects" class="section">
-        <div class="container">
-            <h2 class="section-title">My Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <img src="images/project1.png" alt="Project 1" loading="lazy">
-                    <div class="project-info">
-                        <h3>Project 1</h3>
-                        <p>A brief description of your project. What technologies you used and what problem it solves.</p>
-                        <div class="project-links">
-                            <a href="#" class="btn-small">Live Demo</a>
-                            <a href="#" class="btn-small">View Code</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <img src="images/project2.jpeg" alt="Project 2" loading="lazy">
-                    <div class="project-info">
-                        <h3>Project 2</h3>
-                        <p>Another brief description of your project. Highlight your contributions and key features.</p>
-                        <div class="project-links">
-                            <a href="#" class="btn-small">Live Demo</a>
-                            <a href="#" class="btn-small">View Code</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <img src="images/about.jpeg" alt="Project 3" loading="lazy">
-                    <div class="project-info">
-                        <h3>Project 3</h3>
-                        <p>Description of your third project. Explain the challenges you faced and how you overcame them.</p>
-                        <div class="project-links">
-                            <a href="#" class="btn-small">Live Demo</a>
-                            <a href="#" class="btn-small">View Code</a>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <img src="images/project1.webp" alt="Weather App built with React and API integration" loading="lazy">
+            <div class="project-info">
+              <h3>Weather App</h3>
+              <p>A weather forecasting app built with React and OpenWeather API.</p>
+              <div class="project-links">
+                <a href="#" class="btn-small">Live Demo</a>
+                <a href="#" class="btn-small">View Code</a>
+              </div>
             </div>
+          </div>
+          <div class="project-card">
+            <img src="images/project2.webp" alt="Portfolio site project" loading="lazy">
+            <div class="project-info">
+              <h3>Portfolio Website</h3>
+              <p>A modern portfolio website built with HTML, CSS, and JavaScript.</p>
+              <div class="project-links">
+                <a href="#" class="btn-small">Live Demo</a>
+                <a href="#" class="btn-small">View Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="images/project3.webp" alt="E-commerce web project" loading="lazy">
+            <div class="project-info">
+              <h3>E-commerce Store</h3>
+              <p>An e-commerce website with cart and checkout functionality.</p>
+              <div class="project-links">
+                <a href="#" class="btn-small">Live Demo</a>
+                <a href="#" class="btn-small">View Code</a>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="section bg-light">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Contact Information</h3>
-                    <p><span class="icon" aria-hidden="true">📧</span> <a href="mailto:levitate2010@yahoo.co.uk">levitate2010@yahoo.co.uk</a></p>
-                    <p><span class="icon" aria-hidden="true">📱</span> <a href="tel:+2347065514709">+2347065514709</a></p>
-                    <p><span class="icon" aria-hidden="true">📍</span> Ibadan, Nigeria</p>
-                    <div class="social-links" aria-label="Social Media Links">
-                        <a href="https://github.com/japhar1" target="_blank" aria-label="GitHub">
-                            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                                <path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.339-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.295 2.748-1.025 2.748-1.025.546 1.378.202 2.397.1 2.65.64.7 1.028 1.595 1.028 2.688 0 3.847-2.338 4.695-4.566 4.944.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.749 0 .267.18.579.688.481C19.138 20.2 22 16.447 22 12.021 22 6.484 17.523 2 12 2z"/>
-                            </svg>
-                        </a>
-                        <a href="https://linkedin.com/in/olusegunbalogun" target="_blank" aria-label="LinkedIn">
-                            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.268h-3v-5.604c0-1.337-.025-3.063-1.868-3.063-1.868 0-2.154 1.459-2.154 2.967v5.7h-3v-10h2.881v1.367h.041c.401-.761 1.379-1.563 2.841-1.563 3.039 0 3.6 2.001 3.6 4.601v5.595z"/>
-                            </svg>
-                        </a>
-                        <a href="https://x.com/balo_telly" target="_blank" aria-label="Twitter/X">
-                            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                                <path d="M17.53 2.47A12 12 0 0 0 12 0C5.373 0 0 5.373 0 12c0 6.627 5.373 12 12 12 6.627 0 12-5.373 12-12 0-2.21-.597-4.28-1.63-6.03l-7.84 7.84-2.12-2.12 7.84-7.84zM12 2c2.21 0 4.28.597 6.03 1.63l-7.84 7.84 2.12 2.12 7.84-7.84A12 12 0 0 0 12 2z"/>
-                            </svg>
-                        </a>
-                        <a href="https://instagram.com/balo_telly" target="_blank" aria-label="Instagram">
-                            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.334 3.608 1.308.974.974 1.246 2.242 1.308 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.334 2.633-1.308 3.608-.974.974-2.242 1.246-3.608 1.308-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.334-3.608-1.308-.974-.974-1.246-2.242-1.308-3.608C2.175 15.647 2.163 15.267 2.163 12s.012-3.584.07-4.85c.062-1.366.334-2.633 1.308-3.608.974-.974 2.242-1.246 3.608-1.308C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.013 7.052.072 5.771.131 4.659.414 3.678 1.395 2.697 2.376 2.414 3.488 2.355 4.769.013 8.332 0 8.741 0 12c0 3.259.013 3.668.072 4.948.059 1.281.342 2.393 1.323 3.374.981.981 2.093 1.264 3.374 1.323C8.332 23.987 8.741 24 12 24c3.259 0 3.668-.013 4.948-.072 1.281-.059 2.393-.342 3.374-1.323.981-.981 1.264-2.093 1.323-3.374.059-1.28.072-1.689.072-4.948 0-3.259-.013-3.668-.072-4.948-.059-1.281-.342-2.393-1.323-3.374-.981-.981-2.093-1.264-3.374-1.323C15.668.013 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                <form class="contact-form" role="form" action="mailto:levitate2010@yahoo.co.uk" method="POST" enctype="text/plain">
-                    <div class="form-group">
-                        <label for="name">Your Name</label>
-                        <input id="name" name="name" type="text" placeholder="Your Name" required aria-required="true">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Your Email</label>
-                        <input id="email" name="email" type="email" placeholder="Your Email" required aria-required="true">
-                    </div>
-                    <div class="form-group">
-                        <label for="subject">Subject</label>
-                        <input id="subject" name="subject" type="text" placeholder="Subject">
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Your Message</label>
-                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required aria-required="true"></textarea>
-                    </div>
-                    <button type="submit" class="btn" aria-label="Send Message">Send Message</button>
-                </form>
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p><i class="fa-solid fa-envelope"></i> <a href="mailto:levitate2010@yahoo.co.uk">levitate2010@yahoo.co.uk</a></p>
+            <p><i class="fa-solid fa-phone"></i> <a href="tel:+2347065514709">+2347065514709</a></p>
+            <p><i class="fa-solid fa-location-dot"></i> Ibadan, Nigeria</p>
+            <div class="social-links">
+              <a href="https://github.com/japhar1" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="https://linkedin.com/in/olusegunbalogun" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+              <a href="https://x.com/balo_telly" target="_blank" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+              <a href="https://instagram.com/balo_telly" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
             </div>
+          </div>
+
+          <!-- Replace mailto with Formspree (or similar) -->
+          <form class="contact-form" action="https://formspree.io/f/yourFormID" method="POST">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input id="name" name="name" type="text" placeholder="Your Name" required autocomplete="name">
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input id="email" name="email" type="email" placeholder="Your Email" required autocomplete="email">
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input id="subject" name="subject" type="text" placeholder="Subject">
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
         </div>
+      </div>
     </section>
+  </main>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; <span id="year"></span> BaloTech. All rights reserved.</p>
-            <a href="#home" class="back-to-top" id="backToTopBtn" aria-label="Back to Top">
-                <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M12 4l-8 8h6v8h4v-8h6z"/>
-                </svg>
-            </a>
-        </div>
-    </footer>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="year"></span> BaloTech. All rights reserved.</p>
+      <a href="#home" class="back-to-top" id="backToTopBtn" aria-label="Back to Top"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+  </footer>
 
-    <script>
-        // Simple JavaScript for mobile menu and year in footer
-        document.addEventListener('DOMContentLoaded', function() {
-            // Update year in footer
-            document.getElementById('year').textContent = new Date().getFullYear();
-            
-            // Mobile menu toggle
-            const hamburger = document.querySelector('.hamburger');
-            const navLinks = document.querySelector('.nav-links');
-            
-            hamburger.addEventListener('click', function() {
-                navLinks.classList.toggle('active');
-                hamburger.classList.toggle('active');
-            });
-            
-            // Smooth scrolling for anchor links
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    const target = document.querySelector(this.getAttribute('href'));
-                    target.scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                    
-                    // Close mobile menu if open
-                    if (navLinks.classList.contains('active')) {
-                        navLinks.classList.remove('active');
-                        hamburger.classList.remove('active');
-                    }
-                });
-            });
-        });
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      document.getElementById('year').textContent = new Date().getFullYear();
+      const hamburger = document.querySelector('.hamburger');
+      const navLinks = document.querySelector('.nav-links');
 
-        // Back-to-top button functionality
-        const backToTopBtn = document.getElementById('backToTopBtn');
-        window.addEventListener('scroll', function() {
-            if (window.scrollY > 300) {
-                backToTopBtn.classList.add('active');
-            } else {
-                backToTopBtn.classList.remove('active');
-            }
+      hamburger.addEventListener('click', function() {
+        const expanded = hamburger.getAttribute('aria-expanded') === 'true';
+        hamburger.setAttribute('aria-expanded', !expanded);
+        navLinks.classList.toggle('active');
+        hamburger.classList.toggle('active');
+      });
+
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+          navLinks.classList.remove('active');
+          hamburger.classList.remove('active');
+          hamburger.setAttribute('aria-expanded', 'false');
         });
-        backToTopBtn.addEventListener('click', function(e) {
-            e.preventDefault();
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+
+      // Back-to-top button
+      const backToTopBtn = document.getElementById('backToTopBtn');
+      window.addEventListener('scroll', function() {
+        backToTopBtn.classList.toggle('active', window.scrollY > 300);
+      });
+
+      backToTopBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+
+      // Reveal animations with Intersection Observer
+      const sections = document.querySelectorAll('.section');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
         });
-    </script>
+      }, { threshold: 0.2 });
+
+      sections.forEach(section => observer.observe(section));
+    });
+  </script>
 </body>
 </html>

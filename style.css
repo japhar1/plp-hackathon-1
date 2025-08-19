@@ -636,3 +636,32 @@ footer p {
         width: 100%;
     }
 }
+
+/* Add reveal animation */
+.section {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Improve hover consistency */
+.interest-item:hover,
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--box-shadow);
+}
+
+/* Font Awesome skill icons */
+.skill-item i {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  display: block;
+  color: var(--primary-color);
+}
+.skill-item:hover i {
+  color: var(--white);
+}
